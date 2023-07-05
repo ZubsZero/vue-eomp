@@ -1,6 +1,6 @@
 <template>
     <h1 class="main">What to expect from</h1>
-    <h1 class="secondary">Zubair Matthee the as aspiring developer</h1>
+    <h1 class="secondary">Zubair Matthee the aspiring developer</h1>
 </template>
 <script>
 export default {
