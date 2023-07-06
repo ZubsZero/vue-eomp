@@ -12,6 +12,9 @@ export default createStore({
   mutations: {
     setTestimonial(state,testimonials){
       state.testimonials = testimonials
+    },
+    setProject(state,projects){
+      state.projects = projects
     }
   },
   actions: {
@@ -23,4 +26,16 @@ export default createStore({
       } catch (e){
         console.log(e.message);
       }
-        }}})
+        },
+        async fetchProject(context){
+          try{
+            let res = await fetch(DataURL)
+            let {projects} = await res.json()
+            context.commit('setProject',projects)
+          } catch (e){
+            console.log(e.message);
+          }
+            }
+        
+      
+      }})
