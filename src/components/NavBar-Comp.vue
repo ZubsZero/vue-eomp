@@ -7,35 +7,27 @@
     </button>
     <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Zubair's Profile</h5>
         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <router-link to="/about" class="nav-link">About</router-link>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+          <li class="nav-item">
+            <router-link to="/project" class="nav-link">Projects</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/resume" class="nav-link">Resume</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/contact" class="nav-link">Contact</router-link>
           </li>
         </ul>
-        <form class="d-flex mt-3" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </div>
@@ -57,4 +49,47 @@ export default {
 .offcanvas-header {
     background-color: black;
 }
+
+.nav-link {
+    text-decoration:none;
+  
+} 
+
+.nav-item:hover {
+  border-top: 1px solid pink ;
+  border-left:1px solid Blue;
+  border-bottom: 1px solid yellow;
+  border-right: 1px solid red;
+  transition: 300ms all;
+  background-image: linear-gradient(
+    to right,
+    yellow 25%,
+    red 30%,
+    blue 40%,
+    rgb(111, 5, 60)50%,
+    green 70%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #000000 !important;
+
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  font-weight: 800;
+}
+
+.navbar-nav.justify-content-end.flex-grow-1.pe-3 {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
 </style>
