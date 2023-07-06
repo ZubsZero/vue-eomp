@@ -35,7 +35,7 @@ export default {
     place-items: center;
     margin-left: 30rem;
     border: 3px solid rgba(107, 10, 10, 0.151) ;
-    box-shadow: 0 0 16px rgb(26, 60, 154);
+    box-shadow: 0 0 16px rgb(3, 27, 94);
 }
 
 .profile-card{
