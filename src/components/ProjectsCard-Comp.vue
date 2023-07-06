@@ -120,16 +120,19 @@ button {
   color: white;
 }
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 800px){
   .cards{
-    grid-template-columns: 1fr ;
+    grid-template-columns: auto ;
   }
   .card {
-    width: 18rem !important;
+    width: auto !important;
 
   }
   img {
     aspect-ratio: auto;
+    
   }
 }
+
+
 </style>
