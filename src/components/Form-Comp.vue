@@ -4,7 +4,8 @@
     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
     <!--Section description--><br>
     <p class="text-center w-responsive mx-auto mb-5">
-     Contact Me
+      Do you have any questions? Please do not hesitate to contact us directly.
+      Our team will come back to you within a matter of hours to help you.
     </p>
 
     <div>
@@ -188,9 +189,10 @@ textarea::placeholder {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .col-md-4.mb-md-0.mb-5.d-flex.flex-column.justify-content-center.align-items-center {
     margin-left: 0rem;
+    width: auto;
   }
 }
 </style>

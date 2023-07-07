@@ -26,15 +26,21 @@ export default {
 }
 </script>
 <style scoped>
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .img {
-    width: 15rem;
-    height: 16rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 20px;
 }
 
 .card {
-    height: 30rem !important;
+    height: 35rem !important;
     border: 1px solid  rgb(229, 30, 63) !important;
+    display: grid;
+   
 }
 
 .h-5,h1{
@@ -63,7 +69,17 @@ export default {
 
 @media only screen and (max-width: 300px) {
     .img {
-        width: 13.8rem;
+        width: 16.9rem;
+        height: 18rem;
+    }
+
+    .card {
+        width: 17rem !important;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 </style>
