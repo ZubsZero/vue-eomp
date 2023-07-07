@@ -188,9 +188,10 @@ textarea::placeholder {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 800px) {
   .col-md-4.mb-md-0.mb-5.d-flex.flex-column.justify-content-center.align-items-center {
     margin-left: 0rem;
+    width: auto;
   }
 }
 </style>
