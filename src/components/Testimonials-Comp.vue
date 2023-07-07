@@ -90,7 +90,7 @@ export default {
 
 @media only screen and (max-width: 420px) {
 .img{
-    width: 21.2rem !important;
+    width: 21.4rem !important;
 }
 }
 
