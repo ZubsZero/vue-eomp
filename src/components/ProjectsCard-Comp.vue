@@ -58,6 +58,8 @@ export default {
   font-weight: 800;
 }
 .card {
+  background-color: black;
+  margin: 2rem;
   width: 35rem !important;
   border-left: 1px solid blue !important;
   border-right: 1px solid yellow !important;

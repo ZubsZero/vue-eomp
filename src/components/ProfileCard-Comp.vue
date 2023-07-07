@@ -73,13 +73,13 @@ export default {
   font-weight: 800;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px) {
     .profile-content {
     display: flex;
     flex-direction: column;
     align-items:center ;
     justify-content: center;
-    width: 15rem;
+    width: auto;
   
 }
     .Profile {
@@ -90,7 +90,7 @@ export default {
 }
 @media only screen and (max-width: 500px) {
     .Profile {
-    margin-left: 0px;
+    margin-left: 3rem;
     width: 15rem;
     
 }

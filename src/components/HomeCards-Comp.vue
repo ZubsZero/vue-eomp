@@ -1,6 +1,6 @@
 <template>
   <div class="cards">
-    <div class="card">
+    <div class="card-1">
       <div class="circle">1</div>
       <div class="card-content">
         <h1 class="h-1">Skills</h1>
@@ -34,7 +34,7 @@
 export default {};
 </script>
 <style>
-.card {
+.card-1 {
   background-color: rgb(0, 0, 0) !important;
   width: 22rem;
   border-radius: 20px !important;
@@ -77,7 +77,7 @@ export default {};
 
 .card-2 {
   background-color: rgb(0, 0, 0) !important;
-  width: 22rem;
+  width: 22rem !important;
   border-radius: 20px;
   height: 24rem !important;
   border: 1px solid rgb(207, 230, 0) !important;
@@ -94,13 +94,13 @@ export default {};
   align-items: center;
   justify-content: center;
   margin: 15px;
-  margin-left: 10rem;
+  margin-left: 10rem !important;
   color:white;
 }
 
 .card-3 {
   background-color: rgb(0, 0, 0) !important;
-  width: 22rem;
+  width: 22rem !important;
   border-radius: 20px;
   height: 24rem !important;
   border: 1px solid rgb(255, 0, 0) !important;
@@ -109,7 +109,8 @@ export default {};
 }
 
 .icons {
-  width: 17rem;
+  width: 15rem;
+  
 }
 
 .icons-2 {
@@ -132,6 +133,7 @@ export default {};
   margin: 15px;
   margin-left: 19rem ;
   color: white;
+  float: right;
 }
 
 .cards {

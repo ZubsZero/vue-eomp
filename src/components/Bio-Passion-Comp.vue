@@ -71,10 +71,10 @@ export default {
   font-weight: 800;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px) {
  
     .information {
-        width: 18.5rem;
+        width: auto;
         margin-left: 0;
     }
 

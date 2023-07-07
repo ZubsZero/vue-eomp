@@ -33,13 +33,16 @@ export default {
 .img {
     width: 22rem;
     height: 22rem;
-    border-radius: 20px;
+    border-radius: 6px;
 }
 
 .card {
     height: 35rem !important;
+    width: 22rem !important;
     border: 1px solid  rgb(229, 30, 63) !important;
     display: grid;
+    background-color: #000000;
+    margin: 30px;
    
 }
 
@@ -67,14 +70,16 @@ export default {
     margin: 10px;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px) {
     .img {
-        width: 16.9rem;
-        height: 18rem;
+        width: 20.5rem !important;
+        height: 24rem;
+        border-radius: 6px;
     }
 
     .card {
-        width: 17rem !important;
+        width: auto !important;
+        height: 40rem !important;
     }
 
     .cards {

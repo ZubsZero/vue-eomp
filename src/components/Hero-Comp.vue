@@ -151,16 +151,19 @@ export default {
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 800px) {
     .Hero-content {
         margin-right: 0px;
         display: flex;
         flex-direction: column;
         place-items: center;
         padding: 30px;
+        margin-bottom: 1rem
+        
     }
     .hero-heading {
         font-size: 3rem;
+      
     }
     
 }
