@@ -69,7 +69,7 @@
                                    <span class="progress-bar"></span>
                  </span>
                  <div class="progress-value">Html 90%</div>
-               </div><br>
+               </div>
                <div class="progress css">
                  <span class="progress-left-2">
                                    <span class="progress-bar"></span>
@@ -397,12 +397,16 @@ p{
 }
 .progress.html {
     margin-left: 5rem;
+   
 }
 .progress.css {
     margin-left: 5rem;
+   
+  
 }
 .progress.Javascript {
     margin-left: 5rem;
+    
 }
 
 @media only screen and (max-width: 300px){
