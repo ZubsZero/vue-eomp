@@ -72,7 +72,7 @@ export default {
 
 @media only screen and (max-width: 800px) {
     .img {
-        width: 20.5rem !important;
+        width: auto !important;
         height: 24rem;
         border-radius: 6px;
     }
@@ -87,4 +87,11 @@ export default {
         grid-template-columns: 1fr;
     }
 }
+
+@media only screen and (max-width: 420px) {
+.img{
+    width: 22.4rem !important;
+}
+}
+
 </style>
