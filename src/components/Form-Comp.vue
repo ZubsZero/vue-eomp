@@ -64,6 +64,8 @@
                   name="subject"
                   class="form-control"
                   placeholder="What is the subject...."
+                  required oninvalid="this.setCustomValidity('Please enter the subject')"
+
                 />
                 <label for="subject" class="">Subject</label>
               </div>
@@ -83,6 +85,8 @@
                   rows="2"
                   class="form-control md-textarea"
                   placeholder="type in your message...."
+                  required oninvalid="this.setCustomValidity('Please enter your Message')"
+
                 ></textarea>
                 <label for="message">Your message</label>
               </div>
