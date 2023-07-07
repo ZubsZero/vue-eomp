@@ -18,13 +18,14 @@
                 <h6>Languages</h6>
                 <hr style="color: pink;">
                  <p>English</p>
+                 <p>Afrikaans</p>
             </div>
             <div class="skills">
                 <h6>Skills</h6>
                 <hr style="color: red;">
                 <div class="skills-content" v-for="skills in skills" :key="skills.id">
                     <p class="skills-headings">{{ skills.title }}</p>
-                    <p></p>
+                 
                 </div>
             </div>
             <div class="contact">
