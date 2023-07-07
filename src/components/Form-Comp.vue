@@ -29,6 +29,7 @@
                   name="name"
                   class="form-control"
                   placeholder="Type in your name...."
+                  required oninvalid="this.setCustomValidity('Please enter your full name')"
                 />
                 <label for="name" class="">Your Full Name</label>
               </div>
@@ -44,7 +45,8 @@
                   name="email"
                   class="form-control"
                   placeholder="Type in your Email..."
-                />
+                  required oninvalid="this.setCustomValidity('Please enter a valid email address')"
+                >
                 <label for="email">Your email</label>
               </div>
             </div>
