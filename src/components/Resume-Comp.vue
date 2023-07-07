@@ -69,7 +69,7 @@
                                    <span class="progress-bar"></span>
                  </span>
                  <div class="progress-value">Html 90%</div>
-               </div><br>
+               </div>
                <div class="progress css">
                  <span class="progress-left-2">
                                    <span class="progress-bar"></span>
