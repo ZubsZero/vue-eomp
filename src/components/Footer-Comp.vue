@@ -39,7 +39,7 @@
            <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #3b5998"
-              href="#!"
+              href="https://www.facebook.com/profile.php?id=100085185114256&mibextid=ZbWKwL"
               role="button"
               id="btn-1"
               ><i class="bi bi-facebook"></i
@@ -49,27 +49,27 @@
            <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #55acee"
-              href="#!"
+              href="https://twitter.com/ZubsZero1?t=cdjzJlI59RyGpozdM_mX3w&s=09"
               role="button"
               id="btn-2"
               ><i class="bi bi-twitter"></i
              ></a>
 
-           <!-- Google -->
+           <!-- YouTube -->
            <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #dd4b39"
-              href="#!"
+              href="https://www.youtube.com/channel/UCNxXihsKPV8qMe-AIkl4ECg"
               role="button"
               id="btn-3"
-              ><i class="bi bi-google"></i
+              ><i class="bi bi-youtube"></i
              ></a>
 
            <!-- Instagram -->
            <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #ac2bac"
-              href="#!"
+              href="https://instagram.com/zubs_zero?igshid=NGExMmI2YTkyZg=="
               role="button"
               id="btn-4"
               ><i class="bi bi-instagram"></i></a>
@@ -78,7 +78,7 @@
            <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #0082ca"
-              href="#!"
+              href="https://www.linkedin.com/in/zubair-matthee-b63967263"
               role="button"
               id="btn-5"
               >   <i class="bi bi-linkedin"></i>
@@ -87,7 +87,7 @@
            <a
               class="btn btn-primary btn-floating m-1"
               style="background-color: #333333"
-              href="#!"
+              href="https://github.com/ZubsZero"
               role="button"
               id="btn-6"
               ><i class="bi bi-github"></i>
